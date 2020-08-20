@@ -1,0 +1,49 @@
+$fondo: #DCF8F8;
+$letra: 'Montserrat';
+
+.background {background-color: $fondo;
+      background-size: cover;}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr 1fr;
+  grid-template-rows: 0.4fr 0.4fr 0.4fr 1fr 1fr;
+  grid-gap:  1px 1px;
+  grid-template-areas: "Logo . . . ." 
+  " HEAD HEAD HEAD HEAD HEAD" 
+  "IMAGE IMAGE IMAGE . ."
+  "IMAGE IMAGE IMAGE  ASIDE . "
+  "Redes . . . ." "Redes . . . ."
+  "Footer Footer Footer Footer Footer";
+}
+
+
+.ASIDE { grid-area: ASIDE; }
+
+.IMAGE { grid-area: IMAGE; }
+
+.Redes { grid-area: Redes; }
+
+.Logo { grid-area: Logo; }
+
+.HEAD { grid-area: HEAD;}
+
+.Footer {grid-area: Footer;
+}
+
+.FormatoItalica {
+  font-style: italic;
+  text-align: center;
+}
+
+.TituloVerde {
+  color: green;
+}
+
+.TextRight {text-align: right;}
+
+.TextItalic { font-style: italic; }
+
+.titles { font-style: bold;
+      text-align: center; }
+

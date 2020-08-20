@@ -1,0 +1,101 @@
+.logo:hover {
+  transition: 1s;
+  transform: rotate(360deg); }
+
+.bottom {
+  color: red;
+  font-style: italic;
+  text-align: center; }
+
+ul li {
+  color: blue;
+  list-style-type: none;
+  text-align: left; }
+
+.background {
+  background-color: #DCF8F8;
+  background-size: cover; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr 1fr;
+  grid-template-rows: 0.4fr 0.4fr 0.4fr 1fr 1fr;
+  grid-gap: 1px 1px;
+  grid-template-areas: "Logo . . . ."  " HEAD HEAD HEAD HEAD HEAD"  "IMAGE IMAGE IMAGE . ." "IMAGE IMAGE IMAGE  ASIDE . " "Redes . . . ." "Redes . . . ." "Footer Footer Footer Footer Footer"; }
+
+.ASIDE {
+  grid-area: ASIDE; }
+
+.IMAGE {
+  grid-area: IMAGE; }
+
+.Redes {
+  grid-area: Redes; }
+
+.Logo {
+  grid-area: Logo; }
+
+.HEAD {
+  grid-area: HEAD; }
+
+.Footer {
+  grid-area: Footer; }
+
+.FormatoItalica {
+  font-style: italic;
+  text-align: center; }
+
+.TituloVerde {
+  color: green; }
+
+.TextRight {
+  text-align: right; }
+
+.TextItalic {
+  font-style: italic; }
+
+.titles {
+  font-style: bold;
+  text-align: center; }
+
+.contenedor {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto; }
+
+.recuadro {
+  background-color: #FFCDCD;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 50px; }
+
+.recuadro__img {
+  width: 300px;
+  height: 180px;
+  margin-right: 30px; }
+
+.recuadro__titulo {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  margin-bottom: 20px; }
+
+.recuadro__parrafo {
+  font-family: "Montserrat";
+  line-height: 28px;
+  font-size: 1rem; }
+
+.boton {
+  height: 15px;
+  padding: 10px;
+  background-color: #CDCFFF;
+  color: white;
+  display: inline-block;
+  text-decoration: none; }
+
+.boton--derecha {
+  position: absolute;
+  right: 20px;
+  bottom: 15px; }

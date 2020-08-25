@@ -1,7 +1,9 @@
-$fondo: #DCF8F8;
+$fondo: #E7E3C2;
 $letra: 'Montserrat';
 
 .background {background-color: $fondo;
+      margin-left: 30px;
+      margin-right: 15px;
       background-size: cover;}
 
 .grid-container {
@@ -46,4 +48,6 @@ $letra: 'Montserrat';
 
 .titles { font-style: bold;
       text-align: center; }
+
+
 

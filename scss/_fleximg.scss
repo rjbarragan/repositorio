@@ -1,0 +1,71 @@
+.sectionCarrousel{
+  background-color: white;
+  width: 95%;
+  height: 300px;
+  margin: 5px;
+  padding: 5px;
+
+
+}
+
+.sectionBanner{
+  background-color: pink;
+  width: 95%;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+  justify-conetent: center;
+}
+
+.bannerUno {
+  background-color: #3c918c;
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+  padding: 10px;
+  align-self: center;
+  color: white;
+  display: inline-grid;
+  justify-content: center;
+}
+
+.bannerDos {
+ background-color: #3c918c;
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+  padding: 10px;
+  align-self: center;
+  color: white;
+  display: inline-grid;
+  justify-content: center;
+}
+
+.bannerTres {
+  background-color: #3c918c;
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+  padding: 10px;
+  align-self: center;
+  color: white;
+  display: inline-grid;
+  justify-content: center;
+}
+
+.bannerCuatro {
+  background-color: #3c918c;
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+  padding: 10px;
+  align-self: center;
+  color: white;
+  display: inline-grid;
+  justify-content: center;
+}
+
+.bannImg:hover {
+  transition:1s;
+  transform: translate(0px, 20px);
+}
